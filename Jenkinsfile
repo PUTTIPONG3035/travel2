@@ -1,6 +1,6 @@
-pipeline{
+pipeline {
     agent any
-    states {
+    stages {
         stage("checkout") {
             steps{
                 checkout scm
